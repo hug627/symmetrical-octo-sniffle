@@ -1,0 +1,13 @@
+numpy<2
+pandas
+matplotlib
+seaborn
+scikit-learn
+plotly
+chart-studio
+datapane
+spotipy
+python-dotenv
+wordcloud
+streamlit
+scipy
