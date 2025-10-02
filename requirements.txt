@@ -11,3 +11,15 @@ python-dotenv
 wordcloud
 streamlit
 scipy
+os
+Pillow
+Joblib
+streamlit-option-menu
+streamlit-aggrid
+streamlit-echarts
+streamlit-lottie
+requests
+streamlit-chat
+streamlit-extras
+streamlit-tags
+imageio
