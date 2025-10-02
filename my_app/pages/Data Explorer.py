@@ -9,7 +9,7 @@ st.subheader("Visualize the distribution of tracks across different decades ")
 image = Image.open(r'C:\Users\Nullvoid\Desktop\Music recommendation system\my_app\pages\output.png')
 
 # Display the image in Streamlit
-st.image(image, caption="Track Distribution", use_column_width=True)
+st.image(image, use_column_width=True)
 st.write("""The output of thecode  is a count plot (a bar chart) that shows the distribution of tracks across different decades in your dataset.
 
 Why the counts decrease after some decades
@@ -36,7 +36,7 @@ st.subheader("Plot the trends of various sound features over the years")
 image = Image.open(r'C:\Users\Nullvoid\Desktop\Music recommendation system\my_app\pages\newplot.png')
 
 # Display the image in Streamlit
-st.image(image, caption="Track Distribution", use_column_width=True)
+st.image(image,  use_column_width=True)
 st.subheader("Why do features increase or decrease?")
 
 st.write("""Each feature represents a musical quality, and the ups/downs reflect changes in music styles, technology, and culture:
@@ -88,7 +88,7 @@ st.subheader("Plot the trend of loudness over decades using a line plot")
 image = Image.open(r'C:\Users\Nullvoid\Desktop\Music recommendation system\my_app\pages\line.png')
 
 # Display the image in Streamlit
-st.image(image, caption="Track Distribution", use_column_width=True)
+st.image(image,  use_column_width=True)
 st.write("""Loudness in music has increased over the decades due to several factors:
          In the above dataset shows that:
 
@@ -101,7 +101,7 @@ st.subheader("Identify the top 10 genres based on popularity and plot the trends
 image = Image.open(r'C:\Users\Nullvoid\Desktop\Music recommendation system\my_app\pages\genres.png')
 
 # Display the image in Streamlit
-st.image(image, caption="Track Distribution", use_column_width=True)
+st.image(image, use_column_width=True)
 
 st.subheader("Typical insights from such a chart")
 st.write("""1. Valence (positiveness/happiness)
@@ -127,7 +127,7 @@ st.subheader("Generate a word cloud of the genres present in the dataset ")
 image = Image.open(r'C:\Users\Nullvoid\Desktop\Music recommendation system\my_app\pages\genre.png')
 
 # Display the image in Streamlit
-st.image(image, caption="Track Distribution", use_column_width=True)
+st.image(image,  use_column_width=True)
 st.write("A word cloud is a visual representation of text data where the size of each word indicates its frequency or importance. In this case, the word cloud represents the genres present in the Spotify music dataset.")
 st.write("""Summary
 
@@ -148,7 +148,7 @@ st.subheader("Generate a word cloud of the artist present in the dataset ")
 image = Image.open(r'C:\Users\Nullvoid\Desktop\Music recommendation system\my_app\pages\artist.png')
 
 # Display the image in Streamlit
-st.image(image, caption="Track Distribution", use_column_width=True)
+st.image(image,  use_column_width=True)
 st.write("""Summary of the output
 
 The word cloud shows which artists dominate your dataset.
@@ -167,7 +167,7 @@ Typical Spotify dataset word cloud:
 st.subheader("Visualize the distribution of tracks using t-SNE")
 image = Image.open(r'C:\Users\Nullvoid\Desktop\Music recommendation system\my_app\pages\tsne.png')
 # Display the image in Streamlit
-st.image(image, caption="Track Distribution", use_column_width=True)
+st.image(image,  use_column_width=True)
 st.write("""t-SNE (t-distributed Stochastic Neighbor Embedding) is a dimensionality reduction technique that helps visualize high-dimensional data in 2D or 3D space. In this case, it’s used to visualize the distribution of tracks based on their audio features.""")
 st.write("""Summary of the output 
 1. Each point = a track in your dataset.
@@ -184,7 +184,7 @@ st.write("""Typical insights from such a chart
 st.subheader("Visualize the distribution of tracks using PCA")
 image = Image.open(r'C:\Users\Nullvoid\Desktop\Music recommendation system\my_app\pages\pca.png')
 # Display the image in Streamlit
-st.image(image, caption="Track Distribution", use_column_width=True)
+st.image(image,  use_column_width=True)
 st.write("""PCA (Principal Component Analysis) is another dimensionality reduction technique that transforms high-dimensional data into a lower-dimensional space while preserving as much variance as possible. In this case, it’s used to visualize the distribution of tracks based on their audio features.""")
 st.write("""a. What the code does
 
